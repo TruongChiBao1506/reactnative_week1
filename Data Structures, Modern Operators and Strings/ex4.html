@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script src="./ex4.js"></script> -->
+<!-- <h1>HTML code with textarea and button for user input</h1>
+<textarea id="variableNames" rows="8" cols="30">
+    underscore_case
+first_name
+Some_Variable
+calculate_AGE
+delayed_departure
+</textarea>
+<div>
+    <button id="convertButton" onclick="fclick()">Convert to camelCase</button>
+</div>
+<div id="output"></div>
+
+<script>
+    function fclick(){
+        console.log("clicked");
+    }
+    const textarea = document.getElementById('variableNames');
+    const convertButton = document.getElementById('convertButton');
+    const outputDiv = document.getElementById('output');
+
+    convertButton.addEventListener('click', () => {
+        const variableNames = textarea.value.trim().split('\n');
+        let emojis_count = 1;
+        variableNames.forEach(name => {
+            const words = name.toLowerCase().split('_');
+            let camelCaseName = words[0];
+            for (let i = 1; i < words.length; i++) {
+                camelCaseName += words[i][0].toUpperCase() + words[i].slice(1);
+            }
+
+            const emojis = '✅'.repeat(emojis_count++);
+            outputDiv.innerHTML += `${camelCaseName}${emojis}<br>`;
+            console.log(`${camelCaseName}${emojis}`);
+        });
+    });
+</script> -->
+</body>
+</html>

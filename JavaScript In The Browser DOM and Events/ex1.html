@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #222;
+            text-align: center;
+            color: #fff;
+        }
+
+        input {
+            width: 15rem;
+        }
+
+        .message {
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            50% {
+                opacity: 0;
+            }
+        }
+
+        .guess {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .guess:hover {
+            background-color: #f0f0f0;
+            border-color: #ccc;
+        }
+
+        .guess:focus {
+            border-color: blue;
+            background-color: #f5f5f5;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size:
+                16px;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        button:hover {
+            background-color:
+                #3e8e41;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Guessing Game</h1>
+    <p class="message">Start guessing...</p>
+    <p>Secret Number: <span class="number">?</span></p>
+    <p>Score: <span class="score">0</span></p>
+    <p>click every where to submit answer</p>
+    <input type="number" class="guess" placeholder="Enter your guess" onchange="changeScore()">
+    <button class="again">Play Again</button>
+
+    <script src="./ex1_DOMAndEvent.js"></script>
+</body>
+
+</html>
