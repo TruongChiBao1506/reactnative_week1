@@ -10,8 +10,8 @@
 // 4. Also restore the original background color (#222) and number width (15rem)
 let score = 0;
 function changeScore(){
-    // let secretNumber = Math.trunc(Math.random() * 20) + 1;
-    let secretNumber = 10;
+    let secretNumber = Math.trunc(Math.random() * 20) + 1;
+    //let secretNumber = 10;
     if(document.querySelector('.guess').value == secretNumber){
         alert('Correct Number');
         document.querySelector('body').style.backgroundColor = '#FFFFFF';
