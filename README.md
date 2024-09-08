@@ -35,3 +35,8 @@ Exercise 2
 ![image](https://github.com/user-attachments/assets/f535e8d1-e530-4a55-8297-7371127c360e)
 ![image](https://github.com/user-attachments/assets/b7a4e910-5449-49e7-93e3-9560ad321651)
 ![image](https://github.com/user-attachments/assets/1384c13c-cbfd-446c-892a-aa1019e80f05)
+##Asynchronous JavaScript
+![image](https://github.com/user-attachments/assets/231fa766-2efc-4a44-9516-1bd02a5247d6)
+![image](https://github.com/user-attachments/assets/e10b7bec-5c45-4954-819c-c33b0f05504e)
+![image](https://github.com/user-attachments/assets/399c565c-38f1-4e06-b961-b8587d5e1278)
+![image](https://github.com/user-attachments/assets/b87cfc29-b09d-4209-a098-cd105dd686ab)
